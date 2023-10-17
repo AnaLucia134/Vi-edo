@@ -1,0 +1,85 @@
+:root
+{
+    --colorTextos: #868b92f3;
+
+}
+* ::before, ::after
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(fondo1.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+  background-position: center center;
+    font-family: 'Lato', sans-serif;
+    width: auto;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2
+{
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 800;
+}
+form
+{
+    background: #fff;
+    width: 30%;
+    height: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    background: transparent;
+    backdrop-filter: blur(40px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    justify-content: center;
+    align-items: center;
+}
+.form
+{
+    width: 100%;
+    margin: auto;
+}
+button
+{
+    background: #4f1d23;
+    background: -webkit-linear-gradient(to right, #956769, #4f1d23);
+    background: linear-gradient(to right, #956769, #4f1d23);
+    display: block;
+    width: 100px;
+    height: 40px;
+    border: none;
+    color: #ffff;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 5px auto;
+    cursor: pointer;
+    transition: 0.8s ease all;
+}
+button:hover
+{
+    width: 120px;
+    height: 45px;
+
+}
+.hecho
+{
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-content: center;
+}
+a
+{
+    text-decoration: none;
+    color: #fff;
+}
